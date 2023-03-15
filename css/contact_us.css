@@ -1,0 +1,270 @@
+@import url(resut.css);
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Subrayada:wght@700&family=Noto+Sans+TC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+/*------------------decoration-------------*/
+
+
+
+.title_circle_right1 {
+    display: none;
+}
+
+.title_circle_right2{
+    display: none;
+}
+
+.logo img{
+    position: absolute;
+    width: 150px;
+    top: 51%;
+    left: 29%;
+}
+
+
+/*-----------------con--------------------*/
+body {
+    font-family: Bai Jamjuree, Zeyada;
+}
+
+header {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* height: 200px; */
+    margin: 0 auto;
+    font-weight: bold;
+
+}
+
+.head-title {
+    margin: 0 auto;
+    width: 1040px;
+    height: 350px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.head-title p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+
+    margin-top: 30px;
+}
+
+.title1 {
+}
+
+.title2 {
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
+    -webkit-text-fill-color: transparent;
+}
+
+/*--------------------input-----------------------------------*/
+
+.out-footer-top{
+    width: auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.footer-circle_peo img{
+    width: 500px;
+    border-radius: 50%;
+}
+
+.footer-circle_right1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: -3%;
+    bottom: 77%;
+    border-radius: 53%;
+    background-color: #3864FF;
+    z-index: -8;
+}
+
+.footer-circle_right2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: -5%;
+    bottom: 2%;
+    border-radius: 53%;
+    background-color: #3864FF;
+    z-index: -8;
+}
+
+.footer-circle_left {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    left: -4%;
+    bottom: 43%;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: -8;
+}
+
+
+
+.footer-top {
+    width: 840px;
+    margin: 0 auto 100px auto;
+    display: flex;
+    justify-content: space-around;
+
+    position: relative;
+}
+
+
+.bot-input {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    line-height: 2em;
+    padding: 8px;
+    /* outline: none; */
+}
+/* .check{
+    vertical-align:middle;
+
+} */
+
+textarea{
+    padding: 8px;
+}
+
+.check-first{
+    margin-top: 20px;
+}
+
+.check {
+    padding-top: 6px;
+}
+
+.check-last{
+    margin-left: 20px;
+    margin-top:15px;
+}
+
+
+.sub {
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    font-weight: bold;
+    font-size: 14px;
+
+    margin-top: 40px;
+
+    background-color: #3864FF;
+    border: #3864FF;
+    color: #ffffff;
+    cursor: pointer;
+    /*游標樣式*/
+}
+
+
+/*------------------map------------------------*/
+
+.out-map{
+    width: auto;
+}
+
+.map-block{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.map-block h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.map-content {
+    display: flex;
+    background-color: #fff;
+    margin: 30px auto 100px auto;
+}
+
+.map-content ul{
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map-content li{
+    width: 400px;
+    height: 64px;
+    font-weight: bold;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.map-content img{
+    width: 540px
+}
+
+.map-first{
+    background-color: #3864ff;
+    color: #ffffff;
+}
+
+.map-content li:hover{
+    background-color: #1b62dc;
+    color: #ffffff;
+}
+
+
+/*----------------------number---------------------------*/
+
+.out-company-phone{
+    width: auto;
+    margin: 0 auto;
+    background-color: #3864FF;
+}
+
+.company-phone{
+    width: 1040px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #2be86a;
+    flex-wrap: wrap;
+
+
+}
+
+.out-company-phone li{
+    width: 520px;
+    height: 150px;
+    background: #3864FF;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-phone p{
+    padding-top: 5px;
+}

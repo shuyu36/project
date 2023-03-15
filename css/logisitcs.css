@@ -1,0 +1,375 @@
+@import url(resut.css);
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Subrayada:wght@700&family=Noto+Sans+TC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: Bai Jamjuree, Zeyada;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top_content {
+    width: 1040px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+/*----------------------decoration--------------------------*/
+
+
+/*裝飾要寫overflow:hidden*/
+.top_content {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav_circle {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -34%;
+    left: -5%;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.title_circle_left {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: -40%;
+    left: -21%;
+    border-radius: 50%;
+    background-color: #3864FF;
+}
+
+.title_circle_right1 {
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    top: 27%;
+    right: -6%;
+    border-radius: 50%;
+    background-color: #f2f0f0;
+}
+
+.title_circle_right2 {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    top: 46%;
+    right: -6%;
+    border-radius: 50%;
+    background-color: #3864FF;
+}
+
+
+/*--------------------top------------------------------*/
+
+header {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* height: 200px; */
+    margin: 0 auto;
+
+}
+
+.logo img{
+    position: absolute;
+    width: 150px;
+    top: 276px;
+    left: 200px;
+}
+
+
+nav ul {
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+nav li {
+    display: block;
+    margin-right: 30px;
+
+}
+
+nav a {
+    color: black;
+    font-size: 16px;
+}
+
+.icon {
+    display: inline-block;
+    outline: 3px solid #3864FF;
+    text-align: center;
+    height: 110px;
+    width: 110px;
+    padding: 5px;
+    line-height: 110px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+/*-------------------------- tittle------------------------------*/
+
+.head-title {
+    margin: 0 auto;
+    width: 1040px;
+    height: 350px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.head-title p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+
+    margin-top: 30px;
+}
+
+.title1 {
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
+    -webkit-text-fill-color: transparent;
+}
+
+.title2 {}
+
+/*----------------------------------top------------------------------------*/
+
+.main-top {
+    background-color: #723535;
+    border: #3864FF 1px solid;
+}
+
+.main-top ul {
+    border: #3864FF 1px solid;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main-top li {
+    width: 300px;
+    height: 500px;
+
+    height: 400px;
+    margin: 10px;
+    border: 2px solid black;
+
+
+}
+
+.main-top img{
+    width: 100%;
+}
+
+/*----------------main---------------------------*/
+
+
+.main {
+    width: 1040px;
+    margin: 80px auto;
+}
+
+.main-title {
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+.main1 {
+    font-size: 60px;
+    padding-left: 23%;
+    margin-bottom: -3%;
+}
+
+.main2 {
+    font-size: 100px;
+    color: #3864FF;
+    margin-left: 32%;
+    margin-bottom: -3%;
+}
+
+
+.main3 {
+    font-size: 60px;
+    padding-left: 46%;
+}
+
+.main-text {
+    width: 515px;
+    margin: 70px auto;
+    line-height: 1.4;
+
+}
+
+.main-pic {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-pic li {
+    width: 370px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.main-pic .ship {
+    background-image: url(../img/index.ship.jpg);
+}
+
+.main-pic .air {
+    background-image: url(../img/index-air.jpg);
+    margin-top: 60px;
+}
+
+.main-pic .truck {
+    background-image: url(../img/index-truck.jpg);
+}
+
+.main-pic p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    text-shadow: 0.1em 0.1em #333
+}
+
+
+/*--------------------------banner1-----------------------------*/
+
+.banner1{
+    background-image: url(../img/logisitcs_banner1BGI.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .4);
+    background-blend-mode: multiply;
+}
+
+.b1-title{
+    padding: 70px 0 40px 0;
+    border: 2px solid green;
+    text-align: center;
+}
+
+.b1-title h2{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.b1-text{
+    font-weight: bold;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 22px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.banner1 ul{
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.banner1 li {
+    border: #ffffff 1px solid;
+    display: flex;
+    margin: 40px;
+    border-right: none;
+}
+
+.ba1-text{
+    background-color: #fff;
+    padding: 30px;
+    padding-top: 50px;
+    line-height: 1.4;
+
+    
+}
+
+.ba1-text h4{
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 30px;
+
+}
+
+/*------------------main2---------------------------------------*/
+
+.main2-title{
+    width: 740px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.main2-1 {
+    font-size: 60px;
+    padding-left: 2%;
+    margin-bottom: -2%;
+}
+
+.main2-2 {
+    font-size: 80px;
+    margin-left: 43%;
+    margin-bottom: 1%;
+}
+
+
+.main2-3 {
+    font-size: 60px;
+    padding-left: 37%;
+    color: #3864FF;
+}
+
+.main2_content ul{
+    display: flex;
+    background-color: #db3f3f;
+    
+}
+
+.main2_content li{
+    width: 400px;
+    height: 400px;
+}
+
+.main2-left{
+    background-image: url(../img/123.jpg);
+    margin: 30px;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

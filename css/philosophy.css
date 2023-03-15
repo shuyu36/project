@@ -1,0 +1,481 @@
+@import url(resut.css);
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Subrayada:wght@700&family=Noto+Sans+TC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+/*------------------decoration-------------*/
+
+
+
+.logo img {
+    position: absolute;
+    width: 150px;
+    top: 69%;
+    left: 29%;
+}
+
+.nav_circle {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -49%;
+    left: -5%;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+
+
+.title_circle_left1 {
+    width: 250px;
+    height: 250PX;
+    position: absolute;
+    top: 5%;
+    left: -7%;
+    border-radius: 50%;
+    background-color: #3864FF;
+}
+
+
+.newsmain-left1 {
+    width: 250px;
+    height: 250PX;
+    position: absolute;
+    top: 5%;
+    left: -7%;
+    border-radius: 50%;
+    background-color: #3864FF;
+}
+
+.newsmain-right1 {
+    width: 200px;
+    height: 200PX;
+    position: absolute;
+    top: 50%;
+    right: -2%;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.footer-circle_right1 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0%;
+    right: -14%;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+/*-----------------con--------------------*/
+body {
+    font-family: Bai Jamjuree, Zeyada;
+}
+
+header {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* height: 200px; */
+    margin: 0 auto;
+    font-weight: bold;
+
+}
+
+.head-title {
+    margin: 0 auto;
+    width: 1040px;
+    height: 350px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.head-title p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+
+    margin-top: 20px;
+}
+
+.title1 {}
+
+.title2 {
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    -webkit-text-fill-color: transparent;
+}
+
+.title3 {}
+
+
+/*----------------main---------------------------*/
+
+.main-left {
+    width: 700px;
+    background-color: #000000;
+    color: #fff;
+
+}
+
+.main-left h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.main-left p {
+    padding: 0px 20px 20px 252px;
+    line-height: 1.1;
+}
+
+
+/*----------------------content------------------------------------*/
+
+.content-pic {
+    margin: 0 auto;
+    width: 1040px;
+    border: 2px solid tomato;
+}
+
+.content-pic ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-pic li {
+    width: 450px;
+    height: 280px;
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+.content-pic a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    display: none;
+}
+.content-pic li{
+    background-color:  rgba(56, 100, 255,0.0);
+    background-blend-mode: multiply;
+}
+
+.content-pic-Tleft {
+    background-image: url(../img/philosophy_Tleft.jpg);
+}
+
+.content-pic-Tright {
+    background-image: url(../img/philosophy_Tright1.jpg);
+}
+
+.content-pic-Bleft {
+    background-image: url(../img/philosophy_Bleft.jpg);
+}
+
+.content-pic-Bright {
+    background-image: url(../img/philosophy_Bright.jpg);
+}
+
+/*--------------------hover----------------------------*/
+
+.content-pic li:hover {
+    background-color: rgba(56, 100, 255, 0.57);
+}
+
+.content-pic li:hover a{
+    display: block;
+} 
+
+
+/*------------------------------banner3-----------------------------------*/
+.banner3 {
+    height: 500px;
+    min-height: 100%;
+    width: auto;
+    background-image: url(../img/index-banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, .74);
+    background-blend-mode: multiply;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+}
+
+.b3-block {
+    width: 1040px;
+    margin: 0 a$ git --versionuto;
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.b3-title {
+    margin-left: 20%;
+}
+
+.b3-block h2 {
+    justify-content: center;
+    display: flex;
+}
+
+/*---------------------b3-text----------------------------*/
+
+.banner3-text {
+    width: 1040px;
+    margin: 0 auto;
+    line-height: 150%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.b3text1 {
+    padding: 20px;
+    padding-top: 60px;
+    width: 436px;
+    font-size: 18px;
+    background-color: #ffffff;
+    box-shadow: 0 4.1px 9px -1px #e1e1e1;
+
+    position: absolute;
+    bottom: -75%;
+    right: 0%;
+}
+
+.b3text1 h3 {
+    text-align: right;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #3864FF;
+
+}
+
+.b3text1 h4 {
+    text-align: right;
+    font-weight: bold;
+
+}
+
+.b3text2 {
+    padding: 50px 20px 0 20px;
+    width: 500px;
+    font-size: 18px;
+    margin-top: -9%;
+    box-shadow: 0 4.1px 9px -1px #e1e1e1;
+    background-color: #ffffff;
+}
+
+.b3text2 h3 {
+    text-align: right;
+    color: #3864FF;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+
+.b3text2 h4 {
+    text-align: right;
+    font-weight: bold;
+
+}
+
+/*-----------------Qualifications----------------------*/
+
+.out_main-Qualifications {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-Qualifications {
+    width: 1040px;
+    margin: 0 auto;
+
+    margin: 9% auto 5% auto;
+
+}
+
+.main-Qualifications p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main-Qualifications h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main_circle_left {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 42%;
+    left: -5%;
+    border-radius: 50%;
+    background-color: #f2f0f0;
+
+}
+
+.main_circle_right {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 56%;
+    right: -20%;
+    border-radius: 50%;
+    background-color: #3864FF;
+
+}
+
+
+.pic_off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 0 10%;
+}
+
+/*-----------------------------CEO-----------------------------------*/
+
+.banner2 {
+    width: auto;
+    height: 300px;
+    background-color: #3864FF;
+
+}
+
+.banner2-block {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.banner2-text {
+    font-weight: bold;
+    width: 600px;
+}
+
+.banner2-text h3 {
+    font-size: 60px;
+}
+
+.banner2-text h1 {
+    font-size: 100px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.banner2-text h4 {
+    font-size: 40px;
+    text-align: end;
+    overflow: hidden;
+}
+
+.ceo {
+    width: 1040px;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: -40px;
+    background-color: #f2f0f0;
+    background-image: url(../img/white_leather.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 1.1px 10px 1px #000;
+
+}
+
+.ceo-text {
+    color: #000000;
+    width: 410px;
+    /* float: right; */
+    font-family: Zeyada;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ceo-text p {
+    font-size: 30px;
+}
+
+.ceo-text_sign {
+    margin-top: 40px;
+}
+
+.ceo img {
+    width: 300px;
+    height: 300px;
+    margin: 15px 15px;
+    margin-right: 60px;
+    border-radius: 50%;
+    /* border: #ffffff 3px solid; */
+    /* float: left; */
+}
+
+
+.join {
+    width: 600px;
+    margin: 130px auto 140px auto;
+    position: relative;
+
+    background-color: black;
+}
+
+.join h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0 0 20px;
+}
+
+.join-con {
+    color: #ffffff;
+    font-size: 13px;
+    padding: 20px;
+}
+
+.join-btn {
+    color: #000000;
+    font-size: 16px;
+    position: absolute;
+    bottom: -32%;
+    right: -9%;
+    background-color: #fff;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid #3864FF;
+}
+
+

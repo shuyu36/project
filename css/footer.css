@@ -1,0 +1,140 @@
+@import url(resut.css);
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Subrayada:wght@700&family=Noto+Sans+TC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+/*--------------------input-----------------------------------*/
+
+.out-footer-top{
+    width: auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.footer-circle_peo img{
+    width: 500px;
+    border-radius: 50%;
+}
+
+.footer-circle_peo{
+    position: absolute;
+    left: -15%;
+    top: 23%;
+    /* z-index: ; */
+}
+
+.footer-circle_left {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: -14%;
+    bottom: -35%;
+    border-radius: 50%;
+    background-color: #3864FF;
+    z-index: -8;
+}
+
+
+
+.footer-top {
+    width: 840px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-around;
+
+    position: relative;
+}
+
+
+
+.bot-text {
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.bot-input {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    line-height: 2em;
+    padding: 8px;
+    /* outline: none; */
+}
+/* .check{
+    vertical-align:middle;
+
+} */
+
+textarea{
+    padding: 8px;
+}
+
+.check {
+    padding-top: 6px;
+}
+
+.check p{
+    color: #3864FF;
+}
+
+
+.sub {
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    font-weight: bold;
+    font-size: 14px;
+
+    margin-top: 40px;
+
+    background-color: #3864FF;
+    border: #3864FF;
+    color: #ffffff;
+    cursor: pointer;
+    /*游標樣式*/
+}
+
+/*-----------------------------footer--------------------------------*/
+
+.footer {
+    width: auto;
+    background-color: #000000;
+}
+
+.footer_con {
+    width: auto;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+.footer_LOGO img{
+    width: 150px;
+}
+.footer_item_1_company {
+    margin-bottom: 38px;
+}
+
+.footer_text {
+    background-color: #000000;
+}
+
+.footerfirst-text {
+    font-size: 13px;
+    font-weight: bold;
+    color: #3864FF;
+}
+
+.footerfirst-text~li {
+    line-height: 1.6em;
+}

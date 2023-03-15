@@ -1,0 +1,356 @@
+@import url(resut.css);
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Subrayada:wght@700&family=Noto+Sans+TC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+/*------------------decoration-------------*/
+
+
+
+.logo img {
+    position: absolute;
+    width: 150px;
+    top: 69%;
+    left: 29%;
+}
+
+.nav_circle {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -49%;
+    left: -5%;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+
+
+.title_circle_left1 {
+    width: 250px;
+    height: 250PX;
+    position: absolute;
+    top: 5%;
+    left: -7%;
+    border-radius: 50%;
+    background-color: #3864FF;
+}
+
+
+.newsmain-left1{
+    width: 250px;
+    height: 250PX;
+    position: absolute;
+    top: 5%;
+    left: -7%;
+    border-radius: 50%;
+    background-color: #3864FF;
+}
+
+.newsmain-right1 {
+    width: 200px;
+    height: 200PX;
+    position: absolute;
+    top: 50%;
+    right: -2%;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.footer-circle_right1{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0%;
+    right: -14%;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+/*-----------------con--------------------*/
+body {
+    font-family: Bai Jamjuree, Zeyada;
+}
+
+header {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* height: 200px; */
+    margin: 0 auto;
+    font-weight: bold;
+
+}
+
+.head-title {
+    margin: 0 auto;
+    width: 1040px;
+    height: 350px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.head-title p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+
+    margin-top: 30px;
+}
+
+.title1 {
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
+    -webkit-text-fill-color: transparent;
+}
+
+.title2 {}
+
+
+/*-----------------------------global-main---------------------------------*/
+
+.global-main {
+    width: auto;
+    height: auto;
+    margin: 0 auto 30px auto;
+    font-weight: bold;
+}
+
+.global-con-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.global-pic ul {
+    display: flex;
+}
+
+.global-pic li {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.TW {
+    background-image: url(../img/global_TW.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+}
+
+.BN {
+    background-image: url(../img/global_BN.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+}
+
+.JP {
+    background-image: url(../img/global_JP.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+}
+
+.US {
+    background-image: url(../img/global_US.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+}
+
+.ES {
+    background-image: url(../img/global_ES.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+}
+
+.SG {
+    background-image: url(../img/global_SG.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+
+}
+
+
+/*-------hover------*/
+
+.global-pic li:hover  {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* background-blend-mode: none; */
+    color: #fff;
+    font-size: 35px;
+    text-shadow: #000000;
+    text-shadow: 0.1em 0.1em #333;
+    cursor: pointer;
+}
+
+
+
+
+/*-----------------------------news-main---------------------------------*/
+
+.out-newsmain{
+    position: relative;
+    overflow: hidden;
+}
+
+.news-main {
+
+    width: 740px;
+    height: auto;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.news-con-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 100px auto 30px auto;
+
+}
+
+.news-text {
+    display: flex;
+}
+
+.news-text td {
+    padding-right: 20px;
+    padding-top: 16px;
+}
+
+.news-text-con a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.news-text-con p {
+    display: flex;
+    margin: 60px auto 100px auto;    
+    background-color: #3864ff;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*---------------services---------------------------*/
+
+.out-services {
+
+    width: 1240px;
+    margin: 0 auto 50px auto;
+    overflow: hidden;
+    font-weight: bold;
+
+}
+
+.services-title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.out-services ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.out-services img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50% ;
+}
+
+.out-services h5{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.out-services p {
+    display: flex;
+    margin: 60px auto;
+    background-color: #3864ff;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.out-services a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*--------------------services-a------------------------*/
+
+.out-services-a ul{
+
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.out-services-a a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow:0.1em 0.1em #1c215e;
+}
+
+
+.logisitcs-pic{
+    background-image: url(../img/global_services-left.jpg);
+    width: 450px;
+    height:200px;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+
+    text-shadow: 0.1em 0.1em #333;
+}
+
+
+
+.philosophy-pic{
+    background-image: url(../img/global_services-right.jpg);
+    width: 450px;
+    height:200px;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+
+
+    text-shadow: 0.1em 0.1em #333;
+
+}
+
+
