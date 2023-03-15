@@ -373,3 +373,7 @@ nav a {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+.main2-right{
+    background-image: url(../img/logisitcs_banner1right.jpg);
+}
