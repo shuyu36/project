@@ -147,10 +147,7 @@ nav {
     width: 250px;
 }
 
-.out-main-newsbtn {
-    width: 1040px;
-    margin: 30px auto;
-}
+
 
 .main-news_btn {
     display: block;
@@ -282,21 +279,6 @@ nav {
     margin: 50px auto;
 }
 
-.main-videos_btn {
-    display: block;
-    height: 120px;
-    width: 120px;
-    line-height: 120px;
-    text-align: center;
-    border: #3864FF 3px solid;
-    border-radius: 50%;
-    background-color: #ffffff;
-    margin: 0 auto;
-    color: #000000;
-    font-weight: bold;
-
-    /* cursor:pointer; */
-}
 
 /*-------------------footer---------*/
 

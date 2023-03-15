@@ -126,6 +126,11 @@ nav {
     margin-bottom: 30px;
 }
 
+.global-pic{
+    overflow:hidden;
+    transform:scale(1,1);transition: all 1s ease-out;
+}
+
 .global-pic ul {
     display: flex;
 }
@@ -142,6 +147,16 @@ nav {
     align-items: center;
     justify-content: center;
     color: #fff;
+}
+
+p{
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    display: none;
+
 }
 
 .TW {
@@ -192,6 +207,12 @@ nav {
     text-shadow: #000000;
     text-shadow: 0.1em 0.1em #333;
     cursor: pointer;
+
+    transform:scale(1.2,1.2);
+}
+
+.global-pic li:hover p{
+    display: block;
 }
 
 

@@ -155,12 +155,9 @@ nav a {
 /*----------------------------------top------------------------------------*/
 
 .main-top {
-    background-color: #723535;
-    border: #3864FF 1px solid;
 }
 
 .main-top ul {
-    border: #3864FF 1px solid;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -225,6 +222,8 @@ nav a {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
+
 }
 
 .main-pic li {
@@ -273,7 +272,6 @@ nav a {
 
 .b1-title{
     padding: 70px 0 40px 0;
-    border: 2px solid green;
     text-align: center;
 }
 
@@ -356,24 +354,114 @@ nav a {
 
 .main2_content ul{
     display: flex;
-    background-color: #db3f3f;
-    
+    justify-content: center;
 }
 
 .main2_content li{
+    padding: 20px;
     width: 400px;
     height: 400px;
+    color: #ffff;
+    font-weight: bold;
+    
+}
+
+.main2_content ul h4{
+    font-size: 26px;
+    padding-top: 50px;
+}
+
+.main2_content p{
+    padding-top: 52%;
+    padding-bottom: 5%;
+}
+
+.main2_content a{
+    padding-top: 52%;
+    padding-bottom: 8%;
+    color: #ffff;
 }
 
 .main2-left{
-    background-image: url(../img/123.jpg);
+    background-image: url(../img/logisitcs-main2-left.jpg);
     margin: 30px;
     border: 1px solid black;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode: multiply;
 }
 
 .main2-right{
-    background-image: url(../img/logisitcs_banner1right.jpg);
+    background-image: url(../img/logisitcs-main2-right.jpg);
+    margin: 30px;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode: multiply;
 }
+
+/*-----------------customers----------------------*/
+
+.out_main-customers{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-customers {
+    width: 75%;    
+    margin: 0 auto;
+
+    margin: 9% auto 5% auto;
+}
+
+.customers-text{
+
+}
+
+.main-customers p {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.main-customers h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main_circle_left {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 7%;
+    left: -7%;
+    border-radius: 50%;
+    background-color: #f2f0f0;
+}
+
+.pic_off {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+    /* transition-duration: 5000ms;
+    transform: translate3d(-500.1px, 0px, 0px); */
+    
+}
+
+
+/*-----------------footer-----------------------*/
+
+.footer-top {
+    width: 840px;
+    margin: 100px auto 200px auto;
+    display: flex;
+    justify-content: space-around;
+
+    position: relative;
+}
+
