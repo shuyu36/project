@@ -79,9 +79,9 @@
 
 .logo img{
     position: absolute;
-    width: 150px;
-    top: 285px;
-    left: 120px;
+    width: 180px;
+    top: 275px;
+    left: 100px;
 }
 
 /*-----------------con--------------------*/
@@ -285,9 +285,7 @@ nav {
 
 /*------------------------footer-------------------------------*/
 
-.footer_LOGO img {
-    width: 150px;
-}
+
 
 .footer-circle_left {
     width: 600px;
