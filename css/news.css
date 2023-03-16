@@ -39,7 +39,7 @@
 }
 
 
-.logo img{
+.logo img {
     position: absolute;
     width: 180px;
     top: 275px;
@@ -85,7 +85,7 @@ nav {
 
 .title1 {
     padding-left: 24%;
-    
+
 }
 
 .title2 {
@@ -101,7 +101,7 @@ nav {
 }
 
 .main-news {
-    width: 850px;
+    width: 990px;
     margin: 0 auto;
 }
 
@@ -127,25 +127,51 @@ nav {
     z-index: -8;
 }
 
-.main-news>ul {
+.main-news ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 50px;
+
+
 }
 
 .main-news li {
     /* border: 1px solid blue; */
-    width: 250px;
-    margin-top: 20px;
+    width: 280px;
+    margin: 20px;
+
 }
 
-.main-news h3{
-    font-size: 20px;
+.main-news h3 {
+    font-size: 23px;
     font-weight: bold;
+    padding: 5px 0;
 }
+
+.main-news p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 5px 0 ;
+    color:#434343;
+
+}
+
+.main-news h6 {
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 5px 0 ;
+}
+
+.main-news a{
+    color: #000000;
+}
+
+
 
 .out-main-news img {
-    width: 250px;
+    width: 280px;
+    height: 170px;
 }
 
 
@@ -182,7 +208,7 @@ nav {
     justify-content: space-around;
     align-items: center;
 
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 
 }
 
@@ -211,6 +237,8 @@ nav {
     width: auto;
     position: relative;
     overflow: hidden;
+    margin-bottom: 100px;
+
 }
 
 .videos_circle_right {
@@ -231,7 +259,7 @@ nav {
     left: -2%;
     bottom: 42%;
     border-radius: 50%;
-    background-color:#3864FF;
+    background-color: #3864FF;
     z-index: -8;
 }
 
@@ -242,7 +270,7 @@ nav {
     margin: 0 auto;
 }
 
-.main-videos>ul {
+.main-videos ul {
     display: flex;
     flex-direction: column;
 }
@@ -250,10 +278,11 @@ nav {
 
 .main-videos li {
     display: flex;
-    margin-top: 20px;
+    line-height: 1.5;
+    margin: 20px 0;
 }
 
-.main-videos iframe {
+.main-videos video{
     width: 400px;
     height: 190px;
 }
@@ -263,10 +292,21 @@ nav {
     display: flex;
     flex-direction: column;
     width: 600px;
+    margin-left: 20px;
+    justify-content: space-between;
 }
 
-.news-text h3 {
-    font-size: 20px;
+.text-top h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.text-top p{
+    color:#434343;
+}
+
+.news-text h6{
+    color: #3864FF;
     font-weight: bold;
 }
 
@@ -280,11 +320,11 @@ nav {
     margin: 50px auto;
 }
 
-
 /*-------------------footer---------*/
 
 
-.footer-top{
+
+.footer-top {
     width: 840px;
     margin: 50px auto 200px auto;
     display: flex;
