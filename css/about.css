@@ -8,8 +8,8 @@
     width: 400px;
     height: 400px;
     position: absolute;
-    top: -8%;
-    left: -6%;
+    top: -250px;
+    left: -50px;
     border-radius: 50%;
     background-color: rgb(0, 0, 0);
     z-index: 1;
@@ -77,11 +77,11 @@
     background-color: #000000;
 }
 
-.logo img {
+.logo img{
     position: absolute;
     width: 150px;
-    top: 61%;
-    left: 30%;
+    top: 285px;
+    left: 120px;
 }
 
 /*-----------------con--------------------*/
@@ -96,13 +96,16 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* height: 200px; */
     margin: 0 auto;
     font-weight: bold;
+    background-color: #fff;
+    justify-content: flex-end
+
+
 
 }
-
 .head-title {
     margin: 0 auto;
     width: 1040px;
@@ -284,4 +287,15 @@ nav {
 
 .footer_LOGO img {
     width: 150px;
+}
+
+.footer-circle_left {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: -14%;
+    bottom: -35%;
+    border-radius: 50%;
+    background-color: #3864FF;
+    z-index: -8;
 }

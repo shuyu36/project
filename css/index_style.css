@@ -33,12 +33,14 @@ a {
     width: 400px;
     height: 400px;
     position: absolute;
-    top: -34%;
-    left: -5%;
+    top: -250px;
+    left: -50px;
     border-radius: 50%;
     background-color: rgb(0, 0, 0);
     z-index: 1;
 }
+
+
 
 .title_circle_left {
     width: 600px;
@@ -88,9 +90,9 @@ nav {
 
 .logo img{
     position: absolute;
-    width: 150px;
-    top: 294px;
-    left: 135px;
+    width: 180px;
+    top: 275px;
+    left: 100px;
 }
 
 nav ul {
@@ -762,9 +764,8 @@ textarea{
     padding: 50px;
 }
 
-.footer_LOGO img {
-    width: 150px;
-
+.footer_LOGO img{
+    width: 180px;
 }
 
 .footer_item_1_company {
