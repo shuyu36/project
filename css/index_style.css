@@ -483,6 +483,11 @@ nav a {
     margin-top: 40px;
 }
 
+.ceo-text_sign h5{
+    color: #3864FF;
+    font-size: 30px;
+}
+
 .ceo img {
     width: 403px;
     /* height: 300px; */
@@ -705,13 +710,20 @@ nav a {
     width: 470px;
     display: flex;
     flex-direction: column;
+    
 
 }
 
 input {
     line-height: 2em;
     padding: 8px;
-    /* outline: none; */
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    margin-bottom: 10px;
+    
 }
 /* .check{
     vertical-align:middle;
@@ -720,6 +732,11 @@ input {
 
 textarea{
     padding: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+        margin-bottom: 10px;
+
 }
 
 .check {
