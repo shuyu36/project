@@ -186,9 +186,7 @@ nav {
 .global-pic li:hover  {
     background-color: rgba(0, 0, 0, 0.1);
     /* background-blend-mode: none; */
-    color: #fff;
     font-size: 30px;
-    text-shadow: #000000;
     text-shadow: 0.1em 0.1em #333;
     cursor: pointer;
 
