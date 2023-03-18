@@ -239,11 +239,11 @@ nav {
 
 .news-text-con p {
     display: flex;
-    margin: 60px auto 100px auto;    
+    margin: 60px auto 100px auto;
     background-color: #3864ff;
-    width: 75px;
-    height: 40px;
-    line-height: 40px;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
 }
 
 /*---------------services---------------------------*/
@@ -284,11 +284,11 @@ nav {
 
 .out-services p {
     display: flex;
-    margin: 60px auto;
+    margin: 60px auto 100px auto;
     background-color: #3864ff;
-    width: 75px;
-    height: 40px;
-    line-height: 40px;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
 }
 
 .out-services a {
@@ -353,5 +353,10 @@ nav {
     text-shadow: 0.1em 0.1em #333;
 
 }
+
+.footer{
+    line-height: 1.4;
+}
+
 
 

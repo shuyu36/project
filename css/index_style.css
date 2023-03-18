@@ -6,6 +6,7 @@ body {
     background-color: #ffffff;
     font-size: 16px;
     font-family: Bai Jamjuree, Zeyada;
+    line-height: 1.3;
 }
 
 a {
@@ -134,39 +135,22 @@ nav a {
     height: 350px;
     font-size: 100px;
     font-weight: bolder;
+    line-height: 0.2;
 }
 
-.title1 {
-    color: transparent;
-    -webkit-background-clip: text;
-    background-image: url(../img/bgi_text-forest1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.title1 img{
     padding-left: 20%;
+    width: 330px;
 }
 
-.title2 {
-    color: transparent;
-    -webkit-background-clip: text;
-    background-image: url(../img/bgi_text-ocean.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.title2 img{
     padding-left: 33%;
+    width: 330px;
 }
 
-.title3 {
-    color: transparent;
-    -webkit-background-clip: text;
-    background-image: url(../img/bgi_text-sky.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    padding-left: 46%;
+.title3 img{
+    padding-left: 46%; 
+    width: 330px;   
 }
 
 .head-text {
@@ -385,7 +369,7 @@ nav a {
     width: auto;
     height: 300px;
     background-color: #3864FF;
-
+    line-height: 1;
 }
 
 .banner2-block {
@@ -468,6 +452,7 @@ nav a {
     /* float: right; */
     font-family: Zeyada;
     font-size: 20px;
+    line-height: 1;
 
     display: flex;
     flex-direction: column;
@@ -476,7 +461,10 @@ nav a {
 }
 
 .ceo-text p {
-    font-size: 30px;
+        font-size: 24px;
+        font-family: Bai Jamjuree;
+        font-weight: 400;
+        line-height: 1.1;
 }
 
 .ceo-text_sign {
@@ -485,6 +473,10 @@ nav a {
 
 .ceo-text_sign h5{
     color: #3864FF;
+    font-size: 30px;
+}
+
+.ceo-text_sign h6{
     font-size: 30px;
 }
 
@@ -577,7 +569,6 @@ nav a {
 
 .b3-block {
     width: 1040px;
-    margin: 0 a$ git --versionuto;
     font-size: 80px;
     color: #ffffff;
     font-weight: bold;
@@ -613,7 +604,7 @@ nav a {
     box-shadow: 0 4.1px 9px -1px #e1e1e1;
 
     position: absolute;
-    bottom: -75%;
+    bottom: -30%;
     right: 0%;
 }
 
@@ -632,7 +623,8 @@ nav a {
 }
 
 .b3text2 {
-    padding: 50px 20px 0 20px;
+    padding: 20px;
+    padding-top: 60px;
     width: 500px;
     font-size: 18px;
     margin-top: -9%;
