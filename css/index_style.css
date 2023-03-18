@@ -149,17 +149,19 @@ nav a:hover{
 .title1 img{
     padding-left: 20%;
         height: 80px;
+        
 
 }
 
 .title2 img{
     padding-left: 33%;
         height: 80px;
+        margin: 10px;
 
 }
 
 .title3 img{
-    padding-left: 46%; 
+    padding-left: 48%; 
         height: 80px;
    
 }
