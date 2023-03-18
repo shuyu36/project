@@ -20,7 +20,9 @@ body {
     z-index: 1;
 }
 
-
+nav a:hover{
+    color: #3864FF;
+}
 
 .title_circle_right1 {
     display: none;

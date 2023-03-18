@@ -106,6 +106,10 @@ nav {
 
 
 }
+
+nav a:hover{
+    color: #3864FF;
+}
 .head-title {
     margin: 0 auto;
     width: 1040px;

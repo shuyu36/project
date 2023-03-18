@@ -112,6 +112,10 @@ nav a {
     font-size: 16px;
 }
 
+nav a:hover{
+    color: #3864FF;
+}
+
 .icon {
     display: inline-block;
     outline: 3px solid #3864FF;

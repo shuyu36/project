@@ -337,3 +337,13 @@ nav {
     justify-content: space-around;
     position: relative;
 }
+
+
+.footerfirst-text a{
+    text-decoration: none;
+    color: #3864FF;
+}
+
+.footerfirst-text a:hover{
+    color: rgb(55, 183, 243);
+}

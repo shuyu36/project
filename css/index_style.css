@@ -105,17 +105,22 @@ nav ul {
 nav li {
     display: block;
     margin-right: 30px;
-
 }
+
+
 
 nav a {
     color: black;
     font-size: 16px;
 }
 
+nav a:hover{
+    color: #3864FF;
+}
+
 .icon {
     display: inline-block;
-    outline: 3px solid #3864FF;
+    border: 3px solid #3864FF;
     text-align: center;
     height: 110px;
     width: 110px;
@@ -124,6 +129,9 @@ nav a {
     border-radius: 50%;
     margin-right: 15px;
 }
+
+
+
 
 
 
@@ -160,16 +168,26 @@ nav a {
     line-height: 150%;
 }
 
+
 .head-text a {
     border: 2px solid black;
     background-color: #fff;
     color: black;
-
+    
     padding: 10px;
     margin-top: 30px;
     display: inline-block;
 }
 
+.head-text a:hover{
+    padding: 10px;
+    margin-top: 30px;
+    display: inline-block;
+
+    background-color: #3864FF;
+    color: #ffffff;    
+    border: 2px solid #3864FF;
+}
 /*------------------------------banner1-----------------------------------*/
 
 .banner1 {
@@ -729,6 +747,8 @@ textarea{
     border-right: none;
         margin-bottom: 10px;
 
+        resize : none;
+
 }
 
 .check {
@@ -793,4 +813,14 @@ textarea{
 
 .footerfirst-text~li {
     line-height: 1.6em;
+}
+
+
+.footerfirst-text a{
+    text-decoration: none;
+    color: #3864FF;
+}
+
+.footerfirst-text a:hover{
+    color: rgb(55, 183, 243);
 }
