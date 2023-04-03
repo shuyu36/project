@@ -1,7 +1,7 @@
 /*nav*/
 
 $(function () {
-  if (window.screen.width < 500) {
+  if (window.screen.width < 428) {
     //一開始讓選單縮上去
     $("nav ul").slideUp();
     // 典籍後顯示
