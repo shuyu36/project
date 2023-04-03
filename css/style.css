@@ -1,0 +1,568 @@
+@import url(resut.css);
+
+body {
+  background-color: #ffffff;
+  font-size: 18px;
+  font-family: Bai Jamjuree, Zeyada;
+  line-height: 1.3;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top_content {
+  width: 1040px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+/*----------------------decoration--------------------------*/
+
+/*裝飾要寫overflow:hidden*/
+.top_content {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav_circle {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -250px;
+  left: -50px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.title_circle_left {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: -40%;
+  left: -21%;
+  border-radius: 50%;
+  background-color: #3864ff;
+}
+
+.title_circle_right1 {
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  top: 27%;
+  right: -6%;
+  border-radius: 50%;
+  background-color: #f2f0f0;
+}
+
+.title_circle_right2 {
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  top: 46%;
+  right: -6%;
+  border-radius: 50%;
+  background-color: #3864ff;
+}
+
+.logo img {
+  position: absolute;
+  width: 180px;
+  top: 275px;
+  left: 100px;
+}
+
+/*--------------------top------------------------------*/
+
+header {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.navBar {
+  position: absolute;
+  top: 70px;
+  right: 70px;
+  display: none;
+  color: #3864ff;
+  z-index: 99;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+.logo img {
+  position: absolute;
+  width: 180px;
+  top: 275px;
+  left: 100px;
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+  margin-top: 15px;
+}
+
+nav li {
+  display: block;
+  margin-right: 30px;
+}
+
+nav a {
+  color: black;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #3864ff;
+}
+
+.icon {
+  display: inline-block;
+  outline: 3px solid #3864ff;
+  text-align: center;
+  height: 110px;
+  width: 110px;
+  padding: 5px;
+  line-height: 110px;
+  border-radius: 50%;
+}
+
+/*--------------------input-----------------------------------*/
+
+.out-footer-top {
+  width: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-circle_left {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: -14%;
+  bottom: -35%;
+  border-radius: 50%;
+  background-color: #3864ff;
+  z-index: -8;
+}
+
+.footer-top {
+  width: 840px;
+  margin: 10px auto 200px auto;
+  display: flex;
+  justify-content: space-around;
+
+  position: relative;
+}
+
+.bot-text {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.bot-input {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  line-height: 2em;
+  padding: 8px;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  margin-bottom: 10px;
+}
+/* .check{
+    vertical-align:middle;
+
+} */
+
+textarea {
+  padding: 8px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.check {
+  padding-top: 6px;
+  font-size: 16px;
+}
+
+.check p {
+  color: #3864ff;
+}
+
+.sub {
+  height: 100px;
+  width: 100px;
+  border-radius: 60%;
+  font-weight: bold;
+  font-size: 14px;
+
+  margin-top: 40px;
+
+  background-color: #3864ff;
+  border: #3864ff;
+  color: #ffffff;
+  cursor: pointer;
+  /*游標樣式*/
+}
+
+/*-----------------------------footer--------------------------------*/
+
+.footer {
+  width: auto;
+  background-color: #000000;
+}
+
+.footer_con {
+  width: 940px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.footer_LOGO img {
+  width: 150px;
+}
+.footer_item_1_company {
+  margin-bottom: 38px;
+}
+
+.footer_text {
+  background-color: #000000;
+}
+
+.footerfirst-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3864ff;
+}
+
+.footerfirst-text ~ li {
+  line-height: 1.6em;
+  font-size: 12px;
+}
+
+.footerfirst-text a {
+  text-decoration: none;
+  color: #3864ff;
+}
+
+.footerfirst-text a:hover {
+  color: rgb(55, 183, 243);
+}
+
+/*-------------------- 414 ---------------------*/
+@media screen and (max-width: 414px) {
+  body {
+    background-color: #ffffff;
+    font-size: 18px;
+    font-family: Bai Jamjuree, Zeyada;
+    line-height: 1.3;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .top_content {
+    width: 1040px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+  }
+
+  /*----------------------decoration--------------------------*/
+
+  /*裝飾要寫overflow:hidden*/
+  .top_content {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .nav_circle {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    top: -118px;
+    left: -22px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+
+    /* display: none; */
+  }
+
+  .title_circle_left {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 1%;
+    left: -10%;
+    border-radius: 50%;
+    background-color: #3864ff;
+
+    /* display: none; */
+  }
+
+  .title_circle_right1 {
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    top: 27%;
+    right: -6%;
+    border-radius: 50%;
+    background-color: #f2f0f0;
+
+    display: none;
+  }
+
+  .title_circle_right2 {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    top: 46%;
+    right: -6%;
+    border-radius: 50%;
+    background-color: #3864ff;
+
+    display: none;
+  }
+
+  .logo img {
+    position: absolute;
+    width: 180px;
+    top: 275px;
+    left: 100px;
+  }
+
+  /*--------------------top---bar---------------------------*/
+
+  header {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .burGar_btn {
+    /* background-color: #ff0000; */
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    display: block;
+    color: #3864ff;
+    z-index: 99;
+  }
+
+  /*
+選單線
+*/
+  .burGar_btn {
+    width: 24px;
+    height: 24px;
+    /* background: #003a1d; */
+    cursor: pointer;
+    display: block;
+    padding: 16px;
+    z-index: 2;
+
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: #3864ff;
+  }
+  .burGar_btn .btn,
+  .burGar_btn .btn::before,
+  .burGar_btn .btn::after {
+    background: #3864ff;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    transition: background ease 0.3s, top ease 0.3s 0.3s, transform ease 0.3s;
+    width: 20px;
+  }
+  .burGar_btn .btn {
+    left: 18px;
+    top: 27px;
+  }
+
+  .burGar_btn .btn::before {
+    top: -6px;
+  }
+
+  .burGar_btn .btn::after {
+    top: 6px;
+  }
+  /*
+點選選單變叉叉
+*/
+  #btn:checked + .burGar_btn .btn {
+    background: transparent;
+  }
+
+  #btn:checked + .burGar_btn .btn::before {
+    transform: rotate(45deg);
+  }
+
+  #btn:checked + .burGar_btn .btn::after {
+    transform: rotate(-45deg);
+  }
+
+  #btn:checked + .burGar_btn .btn::before,
+  #btn:checked + .burGar_btn .btn::after {
+    top: 0;
+    transition: top ease 0.3s, transform ease 0.3s 0.3s;
+  }
+
+  /*-------------------------------------nav----------------------------------*/
+
+  nav {
+    justify-content: flex-end;
+    margin: 0 auto;
+  }
+
+  .logo img {
+    position: absolute;
+    width: 150px;
+    top: 135px;
+    left: 38px;
+  }
+
+  nav ul {
+    align-items: center;
+    display: flex;
+    top: 100px;
+    flex-direction: column;
+    position: absolute;
+    background: white;
+    width: 100%;
+    /* transition: all 0.6s; */
+    text-align: center;
+    display: none;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px;
+  }
+
+  nav a {
+    color: black;
+    font-size: 16px;
+  }
+
+  nav a:hover {
+    color: #3864ff;
+  }
+
+  .icon {
+    display: inline-block;
+    outline: 3px solid #3864ff;
+    text-align: center;
+    height: 110px;
+    width: 110px;
+    padding: 5px;
+    line-height: 110px;
+    border-radius: 50%;
+  }
+
+  .nav > ul > li {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    flex: 1 1 0%;
+  }
+
+  /*--------------------------title-----------------------------*/
+
+  .head-text {
+    width: auto;
+    display: block;
+    margin: 30px 20px;
+    line-height: 150%;
+  }
+
+  /*--------------------input-----------------------------------*/
+
+  .out-footer-top {
+    width: auto;
+    padding-top: 50px;
+  }
+
+  .footer-circle_left {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 58%;
+    bottom: 32%;
+    border-radius: 50%;
+    background-color: #3864ff;
+    z-index: -8;
+}
+
+  .footer-top {
+    width: auto;
+    margin: 20px;
+    flex-direction: column;
+  }
+
+  .footer-circle_peo {
+    left: 34%;
+    top: 0%;
+  }
+
+  .footer-circle_peo img {
+    width: 350px;
+  }
+
+  .bot-text {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .bot-input {
+    width: auto;
+  }
+
+
+  /*-----------------------------footer--------------------------------*/
+
+  .footer {
+    width: auto;
+    background-color: #000000;
+  }
+
+  .footer_con {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .footer_con ul{
+    margin-top: 40px;
+  }
+
+
+  .footer_item_1_company {
+    margin-bottom: 0px;
+  }
+
+}

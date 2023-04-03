@@ -1,199 +1,153 @@
 @import url(resut.css);
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Subrayada:wght@700&family=Noto+Sans+TC:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 /*-----------------------decoration-------------*/
 
 .nav_circle {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    top: -250px;
-    left: -50px;
-    border-radius: 50%;
-    background-color: rgb(0, 0, 0);
-    z-index: 1;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -250px;
+  left: -50px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
 }
 
 .title_circle_left1 {
-    width: 600px;
-    height: 600px;
-    position: absolute;
-    top: -11%;
-    left: -22%;
-    border-radius: 50%;
-    background-color: #3864FF;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: -11%;
+  left: -22%;
+  border-radius: 50%;
+  background-color: #3864ff;
 }
 
 .title_circle_left2 {
-    width: 190px;
-    height: 190px;
-    position: absolute;
-    top: 20%;
-    left: -5%;
-    border-radius: 50%;
-    background-color: #f2f0f0;
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  top: 20%;
+  left: -5%;
+  border-radius: 50%;
+  background-color: #f2f0f0;
 }
 
 .title_circle_left3 {
-    width: 280px;
-    height: 280px;
-    position: absolute;
-    top: 54%;
-    left: -5%;
-    border-radius: 50%;
-    background-color: #3864FF;
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  top: 54%;
+  left: -5%;
+  border-radius: 50%;
+  background-color: #3864ff;
 }
 
 .title_circle_right1 {
-    width: 190px;
-    height: 190px;
-    position: absolute;
-    top: 9%;
-    right: -6%;
-    border-radius: 50%;
-    background-color: #3864ff;
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  top: 9%;
+  right: -6%;
+  border-radius: 50%;
+  background-color: #3864ff;
 }
 
 .title_circle_right2 {
-    width: 190px;
-    height: 190px;
-    position: absolute;
-    top: 14%;
-    right: -4%;
-    border-radius: 50%;
-    background-color: #f2f0f0;
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  top: 14%;
+  right: -4%;
+  border-radius: 50%;
+  background-color: #f2f0f0;
 }
-
-
 
 .title_circle_right3 {
-    width: 230px;
-    height: 230px;
-    position: absolute;
-    top: 994px;
-    right: -72px;
-    border-radius: 50%;
-    background-color: #000000;
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  top: 994px;
+  right: -72px;
+  border-radius: 50%;
+  background-color: #000000;
 }
 
-.logo img{
-    position: absolute;
-    width: 180px;
-    top: 275px;
-    left: 100px;
-}
 
 /*-----------------con--------------------*/
-body {
-    font-family: Bai Jamjuree, Zeyada;
-}
-
-header {
-    width: 1040px;
-    margin: 0 auto;
-}
-
-nav {
-    display: flex;
-    /* justify-content: space-between; */
-    /* height: 200px; */
-    margin: 0 auto;
-    font-weight: bold;
-    background-color: #fff;
-    justify-content: flex-end
-
-
-
-}
-
-nav a:hover{
-    color: #3864FF;
-}
 .head-title {
-    margin: 0 auto;
-    width: 1040px;
-    height: 350px;
-    font-size: 80px;
-    font-weight: bolder;
+  margin: 0 auto;
+  width: 1040px;
+  height: 350px;
+  font-size: 80px;
+  font-weight: bolder;
 }
 
 .head-title p {
-    font-size: 20px;
-    font-weight: normal;
+  font-size: 20px;
+  font-weight: normal;
 
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .title1 {
-    margin-left: 25%;
+  margin-left: 25%;
 }
 
 .title2 {
-    -webkit-text-stroke: 3px rgb(0, 0, 0);
-    -webkit-text-fill-color: transparent;
-    margin-left: 50%;
+  -webkit-text-stroke: 3px rgb(0, 0, 0);
+  -webkit-text-fill-color: transparent;
+  margin-left: 50%;
 }
-
-
-
-
 
 /*--------------------item----------------------*/
 
 .drop-down-item {
-    margin: 0 auto;
-    width: 840px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* position: relative; */
-    margin: 0 auto 20px auto;
-    font-size: 22px;
+  margin: 0 auto;
+  width: 840px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: relative; */
+  margin: 0 auto 20px auto;
+  font-size: 22px;
 
-    background-color: #c9c9c9;
+  background-color: #c9c9c9;
 }
 
 .drop-down-item:last-child {
-    margin-bottom: 220px;
+  margin-bottom: 220px;
 }
 
 .dropbtn {
-    display: flex;
-    width: 840px;
-    padding: 20px;
-    flex-direction: column;
-    /* background-color: #ececec; */
-    border: none;
-    cursor: pointer;
+  display: flex;
+  width: 840px;
+  padding: 20px;
+  flex-direction: column;
+  border: none;
+  cursor: pointer;
 
-    font-size: 22px;
-    overflow: hidden;
+  font-size: 22px;
+  overflow: hidden;
 }
 
 .drop-down-con {
-    background-color: #3864ff;
-    color: #fff;
-    top: 64px;
-    z-index: 2;
-    max-height: 0;
-    transition: 2s;
-    opacity: 0;
+  background-color: #3864ff;
+  color: #fff;
+  top: 64px;
+  z-index: 2;
+  max-height: 0;
+  transition: 2s;
+  opacity: 0;
 
-    pointer-events: none;
+  pointer-events: none;
 }
 
-.onclick{
-    max-height: 500px;
-    opacity: 1;
-    padding: 20px 0 40px ;
+.onclick {
+  max-height: 500px;
+  opacity: 1;
+  padding: 20px 0 40px;
 }
-/* 
- .drop-down-item:hover .drop-down-con {
-   max-height: 500px;
-   opacity: 1;
-   padding: 20px 0 40px ;
-} */
 
 /*--------------hover----------------*/
 
@@ -206,111 +160,80 @@ nav a:hover{
     color: #fff;
 } */
 
-
-
-
-
 .drop-down-con h5 {
-    padding: 20px 20px 0 20px;
-    font-size: 14px;
+  padding: 20px 20px 0 20px;
+  font-size: 14px;
 }
 
 .drop-down-con h6 {
-    padding: 10px 20px 0 20px;
-    font-size: 14px;
+  padding: 10px 20px 0 20px;
+  font-size: 14px;
 }
 
 .drop-down-con ul {
-    padding-left: 60px;
-    list-style: disc;
+  padding-left: 60px;
+  list-style: disc;
 }
 
 .drop-down-con ul li {
-    font-size: 16px;
-    margin-top: 10px;
-    padding-right: 40px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-right: 40px;
 }
 
 .drop-down-con ul h6 {
-    display: block;
+  display: block;
 }
-
-
-
-
-
 
 /*------------------------------banner3-----------------------------------*/
 .banner3 {
-    height: 350px;
-    min-height: 100%;
-    width: auto;
-    background-image: url(../img/about-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-color: rgba(0, 0, 0, .74);
-    background-blend-mode: multiply;
+  margin-bottom: 200px;
+  height: 350px;
+  min-height: 100%;
+  width: auto;
+  background-image: url(../img/about-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.74);
+  background-blend-mode: multiply;
 
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
 
-    position: relative;
+  position: relative;
 }
 
 .b3-block {
-    width: 1040px;
-    margin: 0 auto;
-    font-size: 30px;
-    font-weight: bold;
+  width: 1040px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .b3-title {
-    margin-left: 20%;
+  margin-left: 20%;
 }
 
 .b3-text {
-    width: 450px;
-    height: 250px;
-    background-color: #fff;
-    border: #fff 1px solid;
-    border-radius: 20px;
+  width: 450px;
+  height: 250px;
+  background-color: #fff;
+  border: #fff 1px solid;
+  border-radius: 20px;
 }
 
 .b3-text h4 {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 50px 50px 0 50px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 50px 50px 0 50px;
 }
 
 .b3-text h6 {
-    width: 400px;
-    margin-left: 50px;
-    font-size: 16px;
-    font-weight: lighter;
-
-}
-
-
-
-
-
-
-
-
-/*------------------------footer-------------------------------*/
-
-
-
-.footer-circle_left {
-    width: 600px;
-    height: 600px;
-    position: absolute;
-    left: -14%;
-    bottom: -35%;
-    border-radius: 50%;
-    background-color: #3864FF;
-    z-index: -8;
+  width: 400px;
+  margin-left: 50px;
+  font-size: 16px;
+  font-weight: lighter;
 }

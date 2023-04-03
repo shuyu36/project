@@ -1,0 +1,31 @@
+
+.news-main {
+  height: auto;
+  margin: 0 auto;
+  font-weight: bold;
+  border: 2px solid green;
+}
+
+.news-con-title {
+  /* text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 100px auto 30px auto; */
+}
+
+.news-text {
+  display: flex;
+}
+
+.news-text span {
+  width: 15%;
+}
+
+.news-text p {
+  flex-grow: 1;
+
+}
+
+.news-text h6 {
+  width: 10%;
+}
