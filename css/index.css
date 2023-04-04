@@ -946,6 +946,7 @@ textarea {
     height: 50px;
     position: relative;
     overflow: hidden;
+    display: none;
   }
 
   .banner2-pic img {
