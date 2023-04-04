@@ -215,7 +215,7 @@
   font-size: 18px;
   background-color: #ffffff;
   box-shadow: 1px 5px 11px -1px #f1f1f1;
-    position: absolute;
+  position: absolute;
   bottom: -30%;
   right: 0%;
 }
@@ -441,4 +441,337 @@
   border: 3px solid #3864ff;
   font-weight: bold;
 }
-/*-------------------------------------input--------------------------------------*/
+
+/*-------------------- 414 ---------------------*/
+@media screen and (max-width: 414px) {
+  /*------------------decoration-------------*/
+  .nav_circle {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -250px;
+    left: -50px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+  }
+
+  .title_circle_left1 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 1%;
+    left: -10%;
+    border-radius: 50%;
+    background-color: #3864ff;
+
+    /* display: none; */
+  }
+
+  .newsmain-left1 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 5%;
+    left: -7%;
+    border-radius: 50%;
+    background-color: #3864ff;
+  }
+
+  .newsmain-right1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    right: -2%;
+    border-radius: 50%;
+    background-color: #000000;
+  }
+
+  .footer-circle_right1 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0%;
+    right: -14%;
+    border-radius: 50%;
+    background-color: #000000;
+  }
+
+  /*-----------------con--------------------*/
+  .head-title {
+    margin: 180px auto 0 auto;
+    width: auto;
+    height: 250px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+  .head-title p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+
+    margin-top: 20px;
+  }
+
+  .title1 {
+  }
+
+  .title2 {
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    -webkit-text-fill-color: transparent;
+  }
+
+  .title3 {
+  }
+
+  /*----------------main---------------------------*/
+  .main-left {
+    width: 75%;
+    background-color: #000000;
+    color: #fff;
+    margin-bottom: 110px;
+  }
+
+  .main-left h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+  }
+
+  .main-left p {
+    padding: 0px 20px 20px 53px;
+    line-height: 1.4;
+  }
+  /*----------------------content------------------------------------*/
+  .content-pic {
+    width: auto;
+  }
+
+  .content-pic ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content-pic li {
+    width: 450px;
+    height: 280px;
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-pic a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    display: none;
+  }
+  .content-pic li {
+    background-color: rgba(56, 100, 255, 0);
+    background-blend-mode: soft-light;
+  }
+
+  /*--------------------hover----------------------------*/
+  .content-pic li:hover {
+    background-color: rgba(56, 100, 255, 0.57);
+  }
+
+  .content-pic li:hover a {
+    display: block;
+  }
+
+  /*------------------------------banner3-----------------------------------*/
+  .banner3 {
+    height: 200px;
+  }
+
+  .b3-block {
+    width: auto;
+    font-size: 50px;
+  }
+
+  .b3-title {
+    margin-left: 0%;
+  }
+  /*---------------------b3-text----------------------------*/
+  /*做輪播*/
+  .banner3-text {
+    width: auto;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  .b3text1 {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin: -20px auto 0 auto;
+  }
+
+  .b3text2 {
+    width: 80%;
+    margin: -20px auto 0 auto;
+  }
+
+  /*-----------------Qualifications----------------------*/
+
+  .out_main-Qualifications {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .main-Qualifications {
+    width: auto;
+    margin: 14% 5%;
+  }
+  .main-Qualifications p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .main-Qualifications h3 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .main_circle_left {
+    width: 150px;
+    height: 150px;
+    top: 74%;
+    left: -13%;
+  }
+
+  .main_circle_right {
+    width: 200px;
+    height: 200px;
+    top: 25%;
+    right: -31%;
+  }
+
+  .pic_off {
+    display: flex;
+    margin: 4% 0 10%;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .pic_off img {
+    margin-bottom: 30px;
+  }
+
+  /*-----------------------------CEO-----------------------------------*/
+
+  .banner2 {
+    width: auto;
+    height: 300px;
+    background-color: #3864ff;
+    line-height: 1;
+  }
+
+  .banner2-block {
+    width: auto;
+  }
+
+  .banner2-text {
+    width: auto;
+  }
+
+  .banner2-text h3 {
+    font-size: 60px;
+  }
+  .banner2-text h1 {
+    font-size: 100px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .banner2-text h4 {
+    font-size: 40px;
+    text-align: end;
+    overflow: hidden;
+  }
+
+  .ceo {
+    height: auto;
+    width: 90%;
+    margin: -40px auto;
+
+    flex-direction: column;
+  }
+
+  .ceo-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ceo-pic h6 {
+    margin-bottom: 5px;
+  }
+
+  .ceo-text {
+    width: auto;
+  }
+
+  .ceo-text p {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+
+  .ceo-text h4 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0;
+    display: inline-block;
+    border-bottom: 4px solid #3864ff;
+  }
+  .ceo-text h5 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 0;
+    display: inline-block;
+    border-bottom: 4px solid #3864ff;
+  }
+
+  .ceo-pic {
+    /* font-family: Zeyada; */
+    font-size: 20px;
+    font-weight: 500;
+    color: #3864ff;
+  }
+
+  .ceo img {
+    width: auto;
+    height: 280px;
+    margin: 30px;
+    padding: 0;
+}
+  .join {
+    width: 90%;
+  }
+
+  .join h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px 0 0 20px;
+  }
+
+  .join-con {
+    padding: 40px;
+  }
+
+  .join-btn {
+    bottom: -19%;
+    right: -4%;
+  }
+}

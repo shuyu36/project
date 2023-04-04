@@ -3,7 +3,7 @@
 body {
   background-color: #ffffff;
   font-size: 16px;
-  font-family: Bai Jamjuree, Zeyada;
+  font-family: 'Bai Jamjuree', 'Zeyada';
 }
 
 a {
@@ -456,6 +456,7 @@ a {
     left: -10%;
   }
 
+
   .title_circle_right1 {
     width: 190px;
     height: 190px;
@@ -481,7 +482,7 @@ a {
   /*-------------------------- tittle------------------------------*/
 
   .head-title {
-    margin: 160px auto 0 auto;
+    margin: 180px auto 30px auto;
     width: auto;
     height: 250px;
     text-align: center;
