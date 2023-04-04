@@ -3,7 +3,8 @@
 body {
   background-color: #ffffff;
   font-size: 18px;
-  font-family: 'Bai Jamjuree', 'Zeyada';
+  /* font-family: 'Bai Jamjuree', 'Zeyada'; */
+  font-family: 'Bai Jamjuree', sans-serif,'Zeyada', cursive;
   line-height: 1.3;
 }
 
