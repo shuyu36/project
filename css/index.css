@@ -121,7 +121,7 @@ a {
 
 .banner1-text a {
   display: inline-block;
-  outline: 3px solid #3864ff;
+  border: 3px solid #3864ff;
   color: #000000;
   background-color: #fff;
   text-align: center;
