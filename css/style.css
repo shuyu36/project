@@ -124,7 +124,7 @@ nav a:hover {
   color: #3864ff;
 }
 
-.icon {
+.icon a{
   display: inline-block;
   outline: 3px solid #3864ff;
   text-align: center;
@@ -481,7 +481,7 @@ textarea {
     color: #3864ff;
   }
 
-  .icon {
+  .icon a{
     display: inline-block;
     outline: 3px solid #3864ff;
     text-align: center;
