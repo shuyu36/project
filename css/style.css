@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
   font-size: 18px;
   /* font-family: 'Bai Jamjuree', 'Zeyada'; */
-  font-family: 'Bai Jamjuree', sans-serif,'Zeyada', cursive;
+  font-family: "Bai Jamjuree", sans-serif, "Zeyada", cursive;
   line-height: 1.3;
 }
 
@@ -183,7 +183,6 @@ input {
   border-right: none;
 
   margin-bottom: 10px;
-  
 }
 /* .check{
     vertical-align:middle;
@@ -222,6 +221,17 @@ textarea {
   color: #ffffff;
   cursor: pointer;
   /*游標樣式*/
+}
+
+.icon a {
+  display: inline-block;
+  outline: 3px solid #3864ff;
+  text-align: center;
+  height: 110px;
+  width: 110px;
+  padding: 5px;
+  line-height: 110px;
+  border-radius: 50%;
 }
 
 /*-----------------------------footer--------------------------------*/
@@ -272,8 +282,7 @@ textarea {
   color: rgb(55, 183, 243);
 }
 
-
-.THD101{
+.THD101 {
   color: white;
   font-size: 11px;
 }
@@ -525,7 +534,7 @@ textarea {
     border-radius: 50%;
     background-color: #3864ff;
     z-index: auto;
-}
+  }
 
   .footer-top {
     width: auto;
@@ -551,7 +560,6 @@ textarea {
     width: auto;
   }
 
-
   /*-----------------------------footer--------------------------------*/
 
   .footer {
@@ -564,13 +572,11 @@ textarea {
     flex-direction: column;
   }
 
-  .footer_con ul{
+  .footer_con ul {
     margin-top: 40px;
   }
-
 
   .footer_item_1_company {
     margin-bottom: 0px;
   }
-
 }
