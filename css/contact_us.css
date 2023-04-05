@@ -91,7 +91,6 @@ nav a:hover {
   z-index: -8;
 }
 
-
 .contact-footer-circle_left {
   width: 230px;
   height: 230px;
@@ -204,14 +203,14 @@ textarea {
 }
 
 .map-content li {
-  /* width: 400px; */
-  height: 64px;
-  font-weight: bold;
-  padding: 15px;
+  height: 100%;
+  /* font-weight: bold; */
+  padding: 6px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
 
 .map-first {
   background-color: #3864ff;
@@ -224,13 +223,13 @@ textarea {
 }
 
 .world_map {
-  background-image: url(../img/contact_us.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 400px;
-  margin: 0 auto;
 
-  position: relative;
+}
+
+.world_map img{
+  width: 100%;
+  height: 350px;
+  display: block;
 }
 
 /*----------------------number---------------------------*/
@@ -262,7 +261,7 @@ textarea {
 
 .out-company-phone li {
   height: 64px;
-  font-weight: bold;
+  /* font-weight: bold; */
   padding: 15px;
   display: flex;
   width: auto;
@@ -277,4 +276,163 @@ textarea {
 .company-phone ul:hover {
   background-color: #3864ff;
   color: #ffffff;
+}
+
+/*----------414---------------------------------*/
+
+@media screen and (max-width: 414px) {
+  /*-----------------con--------------------*/
+
+  .head-title {
+    margin: 180px auto 0 auto;
+    width: auto;
+    font-size: 60px;
+  }
+
+  /*--------------------input-----------------------------------*/
+
+  .out-footer-top {
+    width: auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .footer-circle_peo img {
+    width: 500px;
+    border-radius: 50%;
+  }
+
+  .footer-circle_right1 {
+    display: none;
+  }
+
+  .footer-circle_right2 {
+    right: 55%;
+    bottom: 56%;
+  }
+
+  .contact-footer-circle_left {
+    display: none;
+  }
+
+  .contact-footer-top {
+    width: auto;
+    margin: 20px;
+  }
+
+  .contact-bot-input {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    line-height: 2em;
+    padding: 8px;
+    /* outline: none; */
+  }
+
+  /* .check{
+    vertical-align:middle;
+
+} */
+
+  textarea {
+    padding: 8px;
+  }
+
+  .out_check {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .out_check label {
+    width: 150px;
+  }
+
+  .check {
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  .check-last {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+
+  .sub {
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    font-weight: bold;
+    font-size: 14px;
+
+    margin-top: 30px;
+
+    background-color: #3864ff;
+    border: #3864ff;
+    color: #ffffff;
+    cursor: pointer;
+    /*游標樣式*/
+  }
+
+  /*------------------map------------------------*/
+
+  .out-map {
+    width: auto;
+  }
+
+  .map-block {
+    /* width: 940px; */
+    margin: 0 auto;
+  }
+
+  .map-block h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .map-content {
+    display: flex;
+    background-color: #fff;
+    margin: 30px auto 0 auto;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .map-content ul {
+    flex-wrap: wrap;
+  }
+  .map-content li {
+    width: 100%;
+    height: 64px;
+    font-weight: normal;
+    padding: 25px;
+
+}
+
+  .map-first {
+    background-color: #3864ff;
+    color: #ffffff;
+  }
+
+  .map-content li:hover {
+    background-color: #3864ff;
+    color: #ffffff;
+  }
+
+  .world_map img {
+    height: 220px;
+}
+
+  /*----------------------number---------------------------*/
+
+  .out-company-phone {
+
+    display: none;
+  }
+
 }
