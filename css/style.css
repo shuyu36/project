@@ -208,17 +208,17 @@ textarea {
 }
 
 .sub {
+  color: #ffffff;
+  background-color: #3864ff;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid  #3864ff;
+  -webkit-border-radius: 160px;
   height: 100px;
   width: 100px;
-  -webkit-border-radius: 160px;
-  font-weight: bold;
-  font-size: 14px;
 
   margin-top: 40px;
 
-  background-color: #3864ff;
-  border: #3864ff;
-  color: #ffffff;
   cursor: pointer;
   /*游標樣式*/
 }
