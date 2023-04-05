@@ -133,6 +133,8 @@ nav a:hover {
   padding: 5px;
   line-height: 110px;
   border-radius: 50%;
+  -webkit-appearance: none;
+
 }
 
 /*--------------------input-----------------------------------*/
