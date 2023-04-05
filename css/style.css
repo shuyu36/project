@@ -211,7 +211,7 @@ textarea {
 .sub {
   height: 100px;
   width: 100px;
-  -webkit-border-radius: 60%;
+  -webkit-border-radius: 160px;
   font-weight: bold;
   font-size: 14px;
 
