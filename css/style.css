@@ -124,7 +124,7 @@ nav a:hover {
   color: #3864ff;
 }
 
-.icon a{
+.icon a {
   display: inline-block;
   outline: 3px solid #3864ff;
   text-align: center;
@@ -207,12 +207,17 @@ textarea {
   color: #3864ff;
 }
 
-.sub {
+.out-sub {
+  width: 100px;
+  height: 100px;
+}
+
+/* .sub {
   color: #ffffff;
   background-color: #3864ff;
   font-size: 14px;
   font-weight: bold;
-  border: 2px solid  #3864ff;
+  border: 2px solid #3864ff;
   border-radius: 50%;
   height: 100%;
   width: 100px;
@@ -220,7 +225,21 @@ textarea {
   margin-top: 40px;
 
   cursor: pointer;
-  /*游標樣式*/
+} 
+*/
+
+
+.sub {
+  color: #ffffff;
+  background-color: #3864ff;
+  font-size: 14px;
+  font-weight: bold;
+  /* border: 2px solid #3864ff; */
+  border-radius: 50%;
+  height: 100%;
+  width: 100px;
+  margin-top: 10px;
+  /* cursor: pointer; */
 }
 
 
@@ -481,7 +500,7 @@ textarea {
     color: #3864ff;
   }
 
-  .icon a{
+  .icon a {
     display: inline-block;
     outline: 3px solid #3864ff;
     text-align: center;
