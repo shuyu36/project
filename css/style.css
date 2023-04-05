@@ -223,16 +223,6 @@ textarea {
   /*游標樣式*/
 }
 
-.icon a {
-  display: inline-block;
-  outline: 3px solid #3864ff;
-  text-align: center;
-  height: 110px;
-  width: 110px;
-  padding: 5px;
-  line-height: 110px;
-  border-radius: 50%;
-}
 
 /*-----------------------------footer--------------------------------*/
 
