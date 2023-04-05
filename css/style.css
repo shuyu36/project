@@ -484,7 +484,7 @@ textarea {
 
   .icon a {
     display: inline-block;
-    outline: 3px solid #3864ff;
+    border: 3px solid #3864ff;
     text-align: center;
     height: 110px;
     width: 110px;
