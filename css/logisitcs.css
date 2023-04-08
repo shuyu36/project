@@ -235,6 +235,14 @@ a {
   /* text-shadow: 0.1em 0.1em #333; */
 }
 
+
+
+.bx-wrapper{
+  -webkit-box-shadow:none;
+  box-shadow: none;
+  border:none;
+  background: none;
+}
 /*--------------------------banner1-----------------------------*/
 
 .banner1 {
@@ -437,7 +445,7 @@ a {
 
 .pic_off1, .pic_off2 {
   display: flex;
-  width: 100%;
+  width: 100vw;
   align-items: center;
   justify-content: space-around;
   margin-bottom: 200px;
@@ -449,11 +457,11 @@ a {
 
 }
 .pic_off1 {
-  animation: move1 20s linear infinite;
+  animation: move1 70s linear infinite;
 }
 .pic_off2 {
-  animation: move2 20s linear infinite;
-  animation-delay: -10s;
+  animation: move2 70s linear infinite;
+  animation-delay: -35s;
 }
 
 

@@ -211,6 +211,13 @@ a {
   letter-spacing: 2px;
 }
 
+.bx-wrapper{
+  -webkit-box-shadow:none;
+  box-shadow: none;
+  border:none;
+  background: none;
+}
+
 /*-----------------Qualifications----------------------*/
 
 .out_main-Qualifications {
