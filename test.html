@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Slider Example</title>
+    <style>
+      .slider {
+        position: relative;
+      }
+      .slider img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+      .slider img.active {
+        opacity: 1;
+      }
+      .controls {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .controls button {
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1.2rem;
+        padding: 5px 10px;
+        margin: 0 10px;
+        cursor: pointer;
+      }
+      .controls .dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .controls .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #999;
+        margin: 0 5px;
+        cursor: pointer;
+      }
+      .controls .dot.active {
+        background: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slider">
+      <img
+        src="img/global_BN.jpg"
+        alt="Image 1"
+      />
+      <img
+        src="img/global_BN.jpg"
+        alt="Image 2"
+      />
+      <img
+        src="img/global_BN.jpg"
+        alt="Image 3"
+      />
+      <div class="controls">
+        <button class="prev">Prev</button>
+        <button class="next">Next</button>
+        <div class="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div>
+    <script>
+      const slider = document.querySelector(".slider");
+      const images = slider.querySelectorAll("img");
+      const prevButton = slider.querySelector(".prev");
+      const nextButton = slider.querySelector(".next");
+      const dots = slider.querySelectorAll(".dot");
+      let currentIndex = 0;
+
+      // Show the current image
+      function showImage(index) {
+        // Hide all images
+        images.forEach((image) => image.classList.remove("active"));
+        // Show the current image
+        images[index].classList.add("active");
+        // Set the active dot
+        dots.forEach((dot) => dot.classList.remove("active"));
+        dots[index].classList.add("active");
+      }
+
+      // Previous button click event
+      prevButton.addEventListener("click", () => {
+        currentIndex--;
+        if (currentIndex < 0) {
+          currentIndex = images.length - 1;
+        }
+        showImage(currentIndex);
+      });
+
+      // Next button click event
+      nextButton.addEventListener("click", () => {
+        currentIndex++;
+        if (currentIndex >= images.length) {
+          currentIndex = 0;
+        }
+        showImage(currentIndex);
+      });
+
+      // Dots click event
+      dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+          currentIndex = index;
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -428,14 +428,44 @@ a {
   background-color: #f2f0f0;
 }
 
-.pic_off {
+.out-pic_off{
+  overflow: hidden;
+  width: 100%;
+  position: relative;
   display: flex;
+}
+
+.pic_off1, .pic_off2 {
+  display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 200px;
   /* transition-duration: 5000ms;
     transform: translate3d(-500.1px, 0px, 0px); */
-  margin-bottom: 200px;
 }
+.pic_off1 img , .pic_off2 img{
+  margin-right: 20px;
+
+}
+.pic_off1 {
+  animation: move1 20s linear infinite;
+}
+.pic_off2 {
+  animation: move2 20s linear infinite;
+  animation-delay: -10s;
+}
+
+
+@keyframes move1{
+  from{transform:  translate3d(100%, 0, 0)}
+  to{transform:  translate3d(-100%, 0, 0)}
+}
+@keyframes move2{
+  from{transform:  translate3d(0%, 0, 0)}
+  to{transform:  translate3d(-200%, 0, 0)}
+}
+
 
 /*-------------------- 414 ---------------------*/
 
@@ -728,11 +758,29 @@ a {
     display: none;
   }
 
-  .pic_off {
+  /* .pic_off1 {
     margin-bottom: 50px;
 
     overflow: hidden;
-  }
+  } */
 
+
+
+
+
+  
+.pic_off1, .pic_off2 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 200px;
+  /* transition-duration: 5000ms;
+    transform: translate3d(-500.1px, 0px, 0px); */
+}
+.pic_off1 img , .pic_off2 img{
+  margin-right: 20px;
+
+}
   /*---------------input---------------*/
 }
