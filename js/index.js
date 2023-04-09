@@ -36,7 +36,8 @@ $(document).ready(function(){
   
   $(".bx-wrapper").css({maxWidth: "auto", margin: "0 auto","-webkit-box-shadow":"none"});
   $(".slide-mid").css({marginTop: "20px" ,});
-  $(".bx-viewport").css({height:"auto"});
+  $(".bx-viewport").css({height:"420px",});
+
 });
 
 
