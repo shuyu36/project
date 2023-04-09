@@ -31,12 +31,10 @@ $(document).ready(function(){
     slideWidth: 440,
     minSlides: 3,
     maxSlides: 3,
-    slideMargin: 10
+    slideMargin: 30
   });
   
   $(".bx-wrapper").css({maxWidth: "auto", margin: "0 auto","-webkit-box-shadow":"none"});
-  $(".slide-mid").css({marginTop: "20px" ,});
-  $(".bx-viewport").css({height:"420px",});
 
 });
 
