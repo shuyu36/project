@@ -531,7 +531,7 @@
     width: 75%;
     background-color: #000000;
     color: #fff;
-    margin-bottom: 110px;
+    margin-bottom:55px;
   }
 
   .main-left h2 {
@@ -571,7 +571,7 @@
     font-size: 20px;
     font-weight: bold;
     color: #fff;
-    display: none;
+    display: block;
   }
   .content-pic li {
     background-color: rgba(56, 100, 255, 0);
@@ -579,13 +579,13 @@
   }
 
   /*--------------------hover----------------------------*/
-  .content-pic li:hover {
+  .content-pic li {
     background-color: rgba(56, 100, 255, 0.57);
   }
 
-  .content-pic li:hover a {
+  /* .content-pic li:hover a {
     display: block;
-  }
+  } */
 
   /*------------------------------banner3-----------------------------------*/
   .banner3 {

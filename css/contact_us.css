@@ -211,19 +211,26 @@ textarea {
   flex-direction: column;
 }
 
-
+/* 
 .map-first {
   background-color: #3864ff;
   color: #ffffff;
-}
+} */
 
 .map-content li:hover {
   background-color: #3864ff;
   color: #ffffff;
 }
 
-.world_map {
+.map-content li.active:hover,
+.map-content li:focus {
+  background-color: initial;
+    color: initial;
+  outline: none;
+}
 
+
+.world_map {
 }
 
 .world_map img{
@@ -412,10 +419,10 @@ textarea {
 
 }
 
-  .map-first {
+  /* .map-first {
     background-color: #3864ff;
     color: #ffffff;
-  }
+  } */
 
   .map-content li:hover {
     background-color: #3864ff;
