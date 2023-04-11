@@ -27,3 +27,19 @@ $(document).ready(function(){
   $(".bx-wrapper").css({Width: "auto", margin: "0 auto","-webkit-box-shadow":"none"});
 
 });
+
+
+
+$(document).ready(function() {
+  var imgCount = $('.banner2-pic img').length;
+  var currentIndex = 0;
+  $('.banner2-pic img').eq(currentIndex).addClass('active');
+  setInterval(function() {
+    currentIndex++;
+    if (currentIndex === imgCount) {
+      currentIndex = 0;
+    }
+    $('.banner2-pic img').removeClass('active');
+    $('.banner2-pic img').eq(currentIndex).addClass('active');
+  }, 5000);
+});

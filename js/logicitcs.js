@@ -12,16 +12,7 @@ $(document).ready(function () {
     "-webkit-box-shadow": "none",
   });
 
-  $(".b1-slider ul").bxSlider({
-    // // slideWidth: 500,
-    // // minSlides: 2,
-    // // maxSlides: ,
-    // slideMargin: 10,
-    // startSlide: 0,
-  });
-
-  $(".bx-viewport").css({ height: "auto" ,weight:"70%"});
-
+  //logo 輪播
 
   $(".out-pic_off").bxSlider({
     minSlides: 10,
@@ -32,6 +23,38 @@ $(document).ready(function () {
     speed: 30000,
   });
 
-  $(".bx-wrapper").css({maxWidth: "auto",margin: "60px auto","-webkit-box-shadow": "none",});
+  $(".bx-wrapper").css({
+    maxWidth: "auto",
+    margin: "60px auto",
+    "-webkit-box-shadow": "none",
+  });
+
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
+      },
+    },
+  });
+  // $(".owl-carousel .owl-item img").css({
+  //   width: "55%",
+  //   height:"auto"
+  // });
 });
 
+$(document).ready(function() {
+  if ($(window).width() >= 1000) {
+    $(".owl-carousel .owl-item img").css({
+      width: "55%",
+    });
+  }
+});

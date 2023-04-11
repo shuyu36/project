@@ -23,6 +23,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
     <link rel="icon" href="img/EARTH weblogo .ico" type="image/x-icon" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"></link>
   </head>
 
   <body>
@@ -58,9 +63,12 @@
         <div class="title_circle"></div>
 
         <div class="head-title">
-          <h1 class="title1">PUTTING</h1>
-          <h1 class="title2">THE LOGIC</h1>
-          <h1 class="title3">INTO LOGISTICS</h1>
+          <h1 class="title1" data-aos="fade-down"
+          data-aos-duration="1000">PUTTING</h1>
+          <h1 class="title2" data-aos="fade-down"
+          data-aos-duration="2000">THE LOGIC</h1>
+          <h1 class="title3" data-aos="fade-down"
+          data-aos-duration="3000">INTO LOGISTICS</h1>
         </div>
       </section>
     </div>
@@ -105,9 +113,9 @@
       <div class="main-content_circle_right1"></div>
       <section class="main">
         <div class="main-title">
-          <h1 class="main1">THE</h1>
-          <h1 class="main2">MISSON</h1>
-          <h1 class="main3">WE FULFILL</h1>
+          <h1 class="main1" data-aos="fade-right" data-aos-duration="2000">THE</h1>
+          <h1 class="main2" data-aos="fade-right" data-aos-duration="3000">MISSON</h1>
+          <h1 class="main3" data-aos="fade-right" data-aos-duration="2000">WE FULFILL</h1>
         </div>
       </section>
       <div class="main-text">
@@ -141,10 +149,11 @@
           for effective delivery. Check out the industries we work with.
         </p>
       </div>
+
       <section class="b1-slider">
-        <ul>
-          <li>
-            <img src="./img/logisitcs_banner1left.jpg" alt="" />
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="./img/logisitcs_banner1.jpg" alt="" />
             <div class="ba1-text">
               <h4>LS&H LOGISTICS</h4>
               <p>
@@ -154,9 +163,9 @@
                 requirements.
               </p>
             </div>
-          </li>
-          <li>
-            <img src="./img/logisitcs_banner1right.jpg" alt="" />
+          </div>
+          <div class="item">
+            <img src="./img/logisitcs_banner2.jpg" alt="" />
             <div class="ba1-text">
               <h4>AUTOMOTIVE</h4>
               <p>
@@ -166,11 +175,32 @@
                 the foundation to a successful partnership.
               </p>
             </div>
-          </li>
-        </ul>
+          </div>
+          <div class="item">
+            <img src="./img/logisitcs_banner3.jpg" alt="" />
+            <div class="ba1-text">
+              <h4>FASHION LOGISTICS</h4>
+              <p>
+                Years of experience in this vertical have allowed EARTH to gain a
+                comprehensive understanding of the Fashion industries processes from raw material supply,production to finished goods;boxed and hanging garments.
+Years of experience
+in this vertical have
+allowed EARTH to
+gain a
+comprehensive
+understanding of the
+Fashion industries
+processes from raw
+material supply,
+production to
+finished goods;
+boxed and hanging
+garments.
+            </div>
+          </div>
+        </div>
       </section>
     </section>
-
     <!------------------main2--------------------------------------->
 
     <div class="main2_content">
@@ -178,29 +208,11 @@
 
       <section class="main">
         <div class="main2-title">
-          <h1 class="main2-1">BULIDING</h1>
-          <h1 class="main2-2">&</h1>
-          <h1 class="main2-3">CREATE VALUE</h1>
+          <h1 class="main2-1" >BULIDING</h1>
+          <h1 class="main2-2" >&</h1>
+          <h1 class="main2-3" >CREATE VALUE</h1>
         </div>
       </section>
-      <!-- <ul class="out-main2">
-        <li class="main2-left">
-          <div class="container">
-            <h4>Supply Chain Integrations</h4>
-            <p>Exclusive planning, close to the world</p>
-            <a href="#" ck><i class="bi bi-plus-circle-dotted"></i></a>
-          </div>
-        </li>
-
-        <li class="main2-right">
-          <div class="container">
-            <h4>E-commerce and Trade Services</h4>
-            <p>To bond between businesses</p>
-            <a href="#"><i class="bi bi-plus-circle-dotted"></i></a>
-          </div>
-        </li>
-      </ul> -->
-
       <ul class="out-main2">
         <li class="main2-left">
           <div class="container">
@@ -259,15 +271,15 @@
           <p>TALK TO OUR<br />DREAM TEAM.</p>
         </div>
         <div class="bot-input">
-          <input type="text" name="" placeholder="NAME" />
-          <input type="text" name="" placeholder="E-MAIL" />
+          <input type="text" name="" placeholder="NAME" id="inputName"/>
+          <input type="text" name="" placeholder="E-MAIL" id="inputEmail"/>
           <textarea
             name=""
-            id=""
+            id="inputMessage"
             cols="30"
             rows="10"
-            placeholder="MESSAGE"
-          ></textarea>
+            placeholder="MESSAGE"></textarea>
+
 
           <div class="check">
             <label
@@ -277,7 +289,7 @@
           </div>
 
           <div>
-            <input type="submit" name="" value="TALK TO US" class="sub" />
+            <input type="submit" name="" value="TALK TO US" class="submitContact" />
           </div>
         </div>
       </div>
@@ -346,11 +358,18 @@
         本網站為緯育TibaMe前端工程師專業技術養成班第03期 學員專題作品
       </p>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
 
     <script src="js/style.js"></script>
     <script src="js/logicitcs.js"></script>

@@ -209,7 +209,7 @@ textarea {
   color: #3864ff;
 }
 
-.sub {
+.submitContact{
   color: #ffffff;
   background-color: #3864ff;
   font-size: 14px;
@@ -469,6 +469,7 @@ textarea {
     /* transition: all 0.6s; */
     text-align: center;
     display: none;
+    z-index: 2;
   }
 
   nav li {
