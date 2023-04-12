@@ -225,7 +225,32 @@ textarea {
   -webkit-appearance: none;
 } 
 
+/*--------------topscroll----------------*/
+html{
+  scroll-behavior: smooth;
+}
 
+#topScroll {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: #3864ff;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border:5px solid #3864ff;
+  
+  display: flex;
+  align-items: center;
+}
+
+#topScroll a{
+  margin: 0 auto;
+  text-decoration: none;
+  color: #000000;
+
+}
 
 
 /*-----------------------------footer--------------------------------*/

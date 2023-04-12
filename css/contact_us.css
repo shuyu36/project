@@ -123,11 +123,16 @@ input {
   padding: 8px;
   /* outline: none; */
 }
+/* 
+#inputName.error{
+  border:2px solid red;
+  border-radius:4px
+}
 
-/* .check{
-    vertical-align:middle;
-
+#inputName.right{
+  border-bottom:1px solid rgb(0, 0, 0);
 } */
+
 
 textarea {
   padding: 8px;

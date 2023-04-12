@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       alert("Please enter the contact info");
     } else {
+      
       alert("Submit Success");
     }
 
@@ -53,7 +54,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function removeRedBorder(event) {
       if (event.target.value) {
-        event.target.style.border = "none";
+        // event.target.style.border = "none";
+        // event.target.style.backgroundColor = "green"
+        event.target.style.borderBottom = "1px solid black";
+        event.target.style.borderRadius = "0px";
+        event.target.style.borderTop = "none";
+        event.target.style.borderLeft = "none";
+        event.target.style.borderRight = "none";
+        
       }
     }
   });
