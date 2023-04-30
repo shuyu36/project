@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
           mapList[j].style.color = "";
         }
       }
-
       // 設定電話區塊的樣式
       var mapPhone = document.querySelector(".company-phone" + i);
       console.log(mapPhone);

@@ -22,9 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const messageInputValue = document.getElementById("inputMessage").value;
     // console.log(nameInputValue, emailInputValue);
     if (
-      nameInputValue === "" ||
-      emailInputValue === "" ||
-      messageInputValue === ""
+      nameInputValue === "" || emailInputValue === "" || messageInputValue === ""
     ) {
       if (nameInputValue === "") {
         document.getElementById("inputName").style.border = "2px solid red";
