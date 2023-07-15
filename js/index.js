@@ -1,21 +1,3 @@
-// $(".banner2-pic img").each(function () {
-//   // if (window.screen.width < 428)
-//   // {
-//   let slideImgs = $(this).find(".banner2-pic img"),
-//     slideImgsCount = slideImgs.length,
-//     currentIndex = 0;
-//   slideImgs.eq(currentIndex).fadeIn();
-//   setInterval(showNextSlide, 1000);
-
-//   function showNextSlide() {
-//     let nextIndex = (currentIndex + 1) % slideImgsCount;
-//     slideImgs.eq(currentIndex).fadeOut();
-//     slideImgs.eq(nextIndex).fadeIn();
-//     currentIndex = nextIndex;
-//     // }
-//   }
-// });
-
 $(document).ready(function(){
   $('.slider1').bxSlider({
     slideWidth: 400,
@@ -29,17 +11,20 @@ $(document).ready(function(){
 });
 
 
-
-$(document).ready(function() {
-  var imgCount = $('.banner2-pic img').length;
+//利用querySelectorAll語法計算照片長度跑迴圈
+window.addEventListener('DOMContentLoaded', function() {
+  var imgCount = document.querySelectorAll('.banner2-pic img').length;
   var currentIndex = 0;
-  $('.banner2-pic img').eq(currentIndex).addClass('active');
+  document.querySelectorAll('.banner2-pic img')[currentIndex].classList.add('active');
   setInterval(function() {
     currentIndex++;
     if (currentIndex === imgCount) {
       currentIndex = 0;
     }
-    $('.banner2-pic img').removeClass('active');
-    $('.banner2-pic img').eq(currentIndex).addClass('active');
+    var images = document.querySelectorAll('.banner2-pic img');
+    for (var i = 0; i < images.length; i++) {
+      images[i].classList.remove('active');
+    }
+    images[currentIndex].classList.add('active');
   }, 5000);
 });
